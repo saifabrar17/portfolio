@@ -25,15 +25,15 @@
 
     /*scroll*/
     .scrollmenu {
-        background-color: rgba(179,179,179,0.75);
-        box-shadow: 0px 0px 20px 2px rgba(179,179,179,0.75);
--webkit-box-shadow: 0px 0px 20px 2px rgba(179,179,179,0.75);
--moz-box-shadow: 0px 0px 20px 2px rgba(179,179,179,0.75);
+        background-color: rgba(179, 179, 179, 0.75);
+        box-shadow: 0px 0px 20px 2px rgba(179, 179, 179, 0.75);
+        -webkit-box-shadow: 0px 0px 20px 2px rgba(179, 179, 179, 0.75);
+        -moz-box-shadow: 0px 0px 20px 2px rgba(179, 179, 179, 0.75);
         overflow: auto;
         white-space: nowrap;
         display: block;
         width: 100%;
-       
+
     }
 
     .scrollmenu::-webkit-scrollbar {
@@ -67,6 +67,7 @@
 
     .banner-btns {
         padding-top: 5vh;
+        text-align: center!important;
     }
 
     .wwd-top h1 {
@@ -172,8 +173,13 @@
     }
 
     .numres {
-        margin-bottom: 10px;
-        padding-left: 30%;
+        /* margin-bottom: 10px;
+        padding-left: 30%; */
+        padding-bottom: 15px;
+    }
+    .num{
+        display: block!important;
+        margin: auto!important;
     }
 
     .brand-img {

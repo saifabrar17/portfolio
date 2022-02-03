@@ -501,12 +501,15 @@ header {
     border-radius: 50%;
     border: 3px solid var(--base-color);
     padding-top: 29px;
+    display: block!important;
+    margin: auto!important;
 }
 
 .num h4 {
     color: var(--color-white);
     font-size: 22px;
     font-weight: 500;
+
 }
 
 /*SPONSOR*/
