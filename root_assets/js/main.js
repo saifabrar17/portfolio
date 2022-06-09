@@ -209,7 +209,7 @@ const sr = ScrollReveal({
 })
 
 
-sr.reveal(`.home__img, .home__title, .home__subtitle, .home__description, .home-btn`, {
+sr.reveal(`.home__img, .home__title, .home__subtitle, .home__description, .home-btn, .home-resume-button`, {
     origin: 'bottom',
     interval: 200,
 })
